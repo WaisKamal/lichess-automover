@@ -1,0 +1,15 @@
+{
+  "content_scripts": [{
+    "js": ["./main.js","./chess.min.js"],
+    "matches": ["https://lichess.org/*","https://lichess.dev/*"]
+  }],
+  "description": "A random mover for ultrabullet games",
+  "icons": {
+    "128": "icon128.png",
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "manifest_version": 2,
+  "name": "Lichess Random Automover",
+  "version": "1.0.0"
+}
